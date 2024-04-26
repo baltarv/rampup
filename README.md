@@ -23,9 +23,11 @@ This project give an example of how to use Django and Django Rest Framework to c
     `python manage.py migrate`
 
 ### Fourth step. 
-- run the initial load for the db. for that we should run two management commands. 
-    first: `python manage.py loag_packages_channels`
-    second: `python manage.py load_package_map`
+- run the initial load for the db. for that we should run two management commands.
+
+    - first: `python manage.py loag_packages_channels`
+
+    - second: `python manage.py load_package_map`
 
 ### Fith step.
 - run `python manage.py runserver` to start the server. 
